@@ -1,0 +1,11 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true,
+            "storage-selector.storage": "SD_CARD",
+            "storage-selector.filesystem": "FAT",
+            "storage-selector.mount-point": "\"sd\""
+        }
+    }
+}
